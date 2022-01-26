@@ -49,7 +49,7 @@
 	<!-- ======= Top Bar ======= -->
 	<div id="topbar" class="d-flex align-items-center fixed-top">
 		<div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-			<nav id="navbar" class="navbar order-last order-lg-0">
+			<nav id="navbartop" class="navbar order-last order-lg-0">
 				<ul>
 					<li class="dropdown"><a href="#"><span>Acesso Rápido</span> <i class="bi bi-chevron-down"></i></a>
 						<ul>
@@ -76,9 +76,8 @@
 						</ul>
 					</li>
 				</ul>
-				<i class="bi bi-list mobile-nav-toggle"></i>
 			</nav><!-- .navbar -->
-
+			<div class="search-form"><?php echo get_search_form() ?></div>
 			<div id="google_translate_element" class="google-translate"></div>
 			
 		</div>
@@ -157,7 +156,7 @@
 						</ul>
 					</li>
 					<li><a class="nav-link scrollto" href="#news">Notícias</a></li>
-					<li><a class="nav-link scrollto" href="#concourse">Concursos</a></li>										
+					<li><a class="nav-link scrollto" href="#concourse">Docentes</a></li>										
 					<li><a class="nav-link scrollto" href="#contact">Contato</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>

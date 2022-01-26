@@ -35,6 +35,9 @@ function tf_wp_admin_login_logo()
     #login .galogin-powered {
       display: none;
     }
+    .language-switcher{
+      display: none;
+    }
   </style>
 <?php }
 add_action('login_enqueue_scripts', 'tf_wp_admin_login_logo');

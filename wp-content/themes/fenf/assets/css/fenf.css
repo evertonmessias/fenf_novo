@@ -17,6 +17,33 @@
 #topbar .navbar ul li a:hover {
     color: #aaa;    
 }
+@media (max-width: 950px) {
+    #topbar{
+        display: none !important;
+    }
+}
+.search-form input[type=text]{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 0;left: 0;
+    border: 1px solid #C0392B;
+    background-color: #fff;
+    color: #00223B;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.search-form input[type=submit]{
+    position: relative;
+    height: 25px;
+    width: 80px;
+    top: 0;left: -5px;
+    border: 1px solid #C0392B;
+    background-color: #C0392B;
+    color: #f9f9f9;
+    border-radius: 2px;
+    font-size: 14px;
+}
 
 .google-translate {
     display: block;
@@ -32,9 +59,10 @@
     border: 1px solid #C0392B;
     background-color: #C0392B;
     color: #f9f9f9;
+    font-size: 14px;
 }
 
-.google-translate select:hover {
+.google-translate select:hover,.search-form input[type=submit]:hover {
     background-color: #d3675b;
 }
 
@@ -51,4 +79,19 @@
 .navbar a, .navbar a:focus {
     font-size: 15px;
     text-transform: none;
+}
+
+/*--------------------------------------------------------------
+# POSTS
+--------------------------------------------------------------*/
+
+#main.post{
+    min-height: 600px;
+    padding-top: 12px;
+}
+
+@media (max-width: 950px) {
+    #main.post{        
+        padding-top: 80px;
+    }
 }

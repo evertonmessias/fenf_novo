@@ -6,12 +6,14 @@
 
   				<div class="col-lg-3 col-md-6">
   					<div class="footer-info">
-  						<h3>Medicio</h3>
+  						<h3>FENF</h3>
   						<p>
-  							A108 Adam Street <br>
-  							NY 535022, USA<br><br>
-  							<strong>Phone:</strong> +1 5589 55488 55<br>
-  							<strong>Email:</strong> info@example.com<br>
+						  R. Tessália Vieira de Camargo, 126
+							 <br>
+							Cidade Universitária, Campinas
+							<br><br>
+  							<strong>Telefone:</strong> +55 19 99999999<br>
+  							<strong>E-mail:</strong> info@example.com<br>
   						</p>
   						<div class="social-links mt-3">
   							<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -24,32 +26,32 @@
   				</div>
 
   				<div class="col-lg-2 col-md-6 footer-links">
-  					<h4>Useful Links</h4>
+  					<h4>Links 1</h4>
   					<ul>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 1</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 2</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 3</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 4</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 5</a></li>
   					</ul>
   				</div>
 
   				<div class="col-lg-3 col-md-6 footer-links">
-  					<h4>Our Services</h4>
+  					<h4>Links 2</h4>
   					<ul>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 1</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 2</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 3</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 4</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="#">Link 5</a></li>
   					</ul>
   				</div>
 
   				<div class="col-lg-4 col-md-6 footer-newsletter">
-  					<h4>Our Newsletter</h4>
+  					<h4>Inscreva-se</h4>
   					<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
   					<form action="" method="post">
-  						<input type="email" name="email"><input type="submit" value="Subscribe">
+  						<input type="email" name="email"><input type="submit" value="Enviar">
   					</form>
 
   				</div>
@@ -60,7 +62,7 @@
 
   	<div class="container">
   		<div class="copyright">
-  			<strong><span>FENF</span></strong>
+		  <strong><span><a href="/wp-admin/">FENF</a></span></strong>
   		</div>
   		<div class="credits">
   			Designed by <a target="_blank" href="https://portfolio.evertonm.com/">EvM</a>
