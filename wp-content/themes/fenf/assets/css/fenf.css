@@ -1,0 +1,54 @@
+/**
+* FENF
+*/
+
+/*--------------------------------------------------------------
+# TOPBAR
+--------------------------------------------------------------*/
+#topbar {
+    z-index: 3000 !important;
+}
+#topbar .navbar ul li a {
+    color: #fff;    
+}
+#topbar .navbar ul li ul li a {
+    color: #333;    
+}
+#topbar .navbar ul li a:hover {
+    color: #aaa;    
+}
+
+.google-translate {
+    display: block;
+    position: relative;
+    margin-top: 3px;
+}
+
+.google-translate select {
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    top: -5px;
+    border: 1px solid #C0392B;
+    background-color: #C0392B;
+    color: #f9f9f9;
+}
+
+.google-translate select:hover {
+    background-color: #d3675b;
+}
+
+@media (max-width: 950px) {
+    .google-translate {
+        position: absolute;
+        left: 33%;
+        top: 25px;
+    }
+}
+/*--------------------------------------------------------------
+# HEADER
+--------------------------------------------------------------*/
+.navbar a, .navbar a:focus {
+    font-size: 15px;
+    text-transform: none;
+}
